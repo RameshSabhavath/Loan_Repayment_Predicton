@@ -1,4 +1,4 @@
-# 📌 Loan RePayment Predicton (Project Summary)
+## 📌 Loan RePayment Predicton (Project Summary)
 
  ### 📈 Objectives of this project
 * Build an ML model to predict loan repayment status (not.fully.paid).
