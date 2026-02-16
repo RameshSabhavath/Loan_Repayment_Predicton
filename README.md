@@ -13,28 +13,28 @@
 3. Techniques:→  Label Encoding, Log Transformation, Standard Scaling.
 4. Validation: → StratifiedKFold, GridSearchCV (recall-weighted scoring).
 5. 
-🔍 Findings
+### 🔍 Findings
 
 → Dataset highly imbalanced (85% fully paid vs 15% defaults).  
 → Random Forest (600 trees) achieved ~85% accuracy.  
 → Fully-paid loans predicted with recall = 1.0.  
 → Defaults (minority class) had near-zero recall, mostly misclassified.
 
-🔹 Achievements
+### 🔹 Achievements
 
 * Designed an end-to-end ML pipeline from preprocessing to prediction.
 * Benchmarked Decision Tree, Bagging, AdaBoost, Gradient Boosting, and Random Forest.
 * Optimized models with cross-validation and hyperparameter tuning.
 * Identified the core limitation (class imbalance causing poor minority detection).
 
-📊 Outcomes
+### 📊 Outcomes
 
 → Produced repayment predictions for unseen loan data.  
 → Delivered insights showing overall accuracy is misleading due to imbalance.  
 → Highlighted operational risk of false negatives (missed defaulters).  
 → Recommended SMOTE/ADASYN, threshold tuning, and cost-sensitive learning for improvement.
 
-🗝 Key Points
+### 🗝 Key Points
 
 Dataset: 9,578 loans, 14 features, no missing values.  
 Train-test split: 70/30 (6,704 vs 2,874).  
